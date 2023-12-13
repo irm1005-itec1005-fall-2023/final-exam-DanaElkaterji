@@ -57,7 +57,9 @@ body {
 /*
  * SHARED STYLES
  */
-
+h1{
+  display: center;
+}
 .page-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -67,3 +69,460 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+ ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+ul li {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  flex: 1 0 45%; /* Adjust the flex value for 2 columns */
+}
+
+ul li:nth-child(1) {
+  height: 120px;
+  background-color: #E19898;
+}
+
+ul li:nth-child(2) {
+  height: 120px;
+  background-color: #A2678A;
+}
+
+ul li:nth-child(3) {
+  height: 120px;
+  background-color: #4D3C77;
+}
+
+ul li:nth-child(4) {
+  height: 120px;
+  background-color: #E19898;
+}
+
+ul li:nth-child(5) {
+  height: 120px;
+  background-color: #A2678A;
+}
+
+ul li:nth-child(6) {
+  height: 120px;
+  background-color: #4D3C77;
+}
+
+
+
+/*about*/
+.content-container {
+  background-color: #FEDFE1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  margin: 6rem auto;
+  padding: 1.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 55rem;
+  height: 25rem;
+  border-radius: 15px;
+}
+
+.abt {
+  width: 35rem; 
+  height: 22rem;
+  margin-bottom: 3rem;
+  border-radius: 15%; /* Optional: for rounded corners */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Adjusted the width for the text content */
+}
+
+h2 {
+  margin-left: 2rem;
+  max-width: 100%;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: #4D3C77;
+  margin-top: 1.5rem
+}
+
+p {
+  max-width: 100%;
+  margin: 0.5rem 0;
+  margin-left: 1rem;
+  margin-top: 1.5rem
+}
+
+.contact {
+  height: 2rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+  border: 2px solid #A2678A;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFB6C1;
+}
+
+.contact:hover {
+  background-color: #4D3C77;
+  transform: scale(1.09);
+  color: whitesmoke;
+}
+
+
+/*work*/
+.container {
+  display: flex;
+}
+
+/* Styles for WORK1 container */
+.WORK1 {
+  background-color: #FEDFE1;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.WORK1 img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.WORK1 h3 {
+  margin-top: 0.5rem;
+}
+
+.WORK1 button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #FF6188;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WORK1 button:hover {
+  background-color: #E19898;
+}
+
+/* Styles for WORK2 container */
+.WORK2 {
+  background-color: #B8E4FC;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  height: 600px;
+}
+
+.WORK2 img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.WORK2 .content {
+  position: relative;
+  z-index: 1;
+}
+
+.WORK2 h3 {
+  margin-top: 0.5rem;
+}
+
+.WORK2 button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #4D8AF0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WORK2 button:hover {
+  background-color: #3267C7;
+}
+
+
+
+/*work3*/
+.container {
+  display: flex;
+}
+
+/* Styles for WORK1 container */
+.WORK1 {
+  background-color: #FEDFE1;
+  padding: 1rem;
+  margin: 1rem;
+  max-height: 650px; /* Set a max height for the container */
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.WORK1 img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.WORK1 h3 {
+  margin-top: 0.5rem;
+}
+
+.WORK1 button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #FF6188;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WORK1 button:hover {
+  background-color: #E19898;
+}
+
+/* Styles for WORK2 container */
+.WORK2 {
+  background-color: #B8E4FC;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-height: 650px; /* Set a max height for the container */
+  max-width: 500px;
+  overflow-y: auto; /* Add scrollbars if content overflows */
+}
+
+.WORK2 img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.WORK2 h3 {
+  margin-top: 0.5rem;
+}
+
+.WORK2 button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #4D8AF0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WORK2 button:hover {
+  background-color: #3267C7;
+}
+
+/* Styles for WORK3*/
+.container2 {
+  display: flex;
+}
+
+.work-container {
+  flex: 1;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.work-container img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.work-container h3 {
+  margin-top: 0.5rem;
+}
+
+.work-container button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Specific styles for WORK4 */
+.WORK3 {
+  background-color: #B8E4FC;
+  padding: 1rem;
+  margin: 1rem;
+  max-height: 650px; /* Set a max height for the container */
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.WORK3 img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.WORK3 h3 {
+  margin-top: 0.5rem;
+}
+
+.WORK3 button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #4D8AF0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WORK3 button:hover {
+  background-color: #4D8AF0;
+}
+
+
+.WORK4 {
+  background-color: #FEDFE1;
+  padding: 1rem;
+  margin: 1rem;
+  max-height: 650px; /* Set a max height for the container */
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.WORK4 img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.WORK4 h3 {
+  margin-top: 0.5rem;
+}
+
+.WORK4 button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #FF6188;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WORK4 button:hover {
+  background-color: #E19898;
+}
+
+
+.ContactMe{
+  background-color: #E19898;
+  width: 55rem;
+  height: 15rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+h4{
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+p{
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.Contact1{
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  background-color: #A2678A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Contact1:hover {
+  background-color: #FF6188;
+}
+
+
+footer {
+  background-color:#4D3C77; /* Set background color */
+  color: white; /* Set text color */
+  padding: 20px; /* Add some padding for spacing */
+  text-align: center; /* Center-align text */
+  margin-top: 1rem;
+}
+
+footer img {
+  width: 50px; /* Adjust the width of the logo */
+  height: 50px; /* Adjust the height of the logo */
+  margin-right: 10px; /* Add some margin to separate the logo from text */
+}
+
+footer p {
+  margin: 0; /* Remove default margin for the paragraph */
+}
+
+
+
+
+head {
+  background-color:#4D3C77; /* Set background color */
+  color: white; /* Set text color */
+  padding: 20px; /* Add some padding for spacing */
+  text-align: center; /* Center-align text */
+  margin-top: 1rem;
+}
+
+.first {
+  width: 10rem; /* Adjust the width of the logo */
+  height: 10rem; /* Adjust the height of the logo */
+  margin-right: 10px; /* Add some margin to separate the logo from text */
+}
+
+head p {
+  margin: 0; /* Remove default margin for the paragraph */
+  left: 1;
+}
+
+
+.contact4{
+  margin-top: 1rem;
+  margin-left: 95%;
+  padding: 0.5rem;
+  background-color: #A2678A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact4:hover {
+  background-color: #FF6188;
+}
+
