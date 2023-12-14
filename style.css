@@ -28,7 +28,7 @@
  * }
  */
 
- html {
+html {
   font-size: 1.0rem;
 }
 
@@ -93,9 +93,24 @@ ul li:nth-child(1) {
   background-color: #E19898;
 }
 
+ul li:nth-child(1):hover {
+  background-color: #E19898;
+  transform: scale(1.5);
+  color: whitesmoke;
+}
+
+
 ul li:nth-child(2) {
   height: 120px;
   background-color: #A2678A;
+}
+
+
+ul li:nth-child(2):hover {
+  background-color: #A2678A;
+  transform: scale(1.5);
+  transform: scale(1.5);
+  color: whitesmoke;
 }
 
 ul li:nth-child(3) {
@@ -103,14 +118,35 @@ ul li:nth-child(3) {
   background-color: #4D3C77;
 }
 
+ul li:nth-child(3):hover {
+  background-color: #4D3C77;
+  transform: scale(1.5);
+  color: whitesmoke;
+}
+
 ul li:nth-child(4) {
   height: 120px;
   background-color: #E19898;
 }
 
+
+ul li:nth-child(4):hover {
+  background-color: #E19898;
+  transform: scale(1.5);
+  color: whitesmoke;
+}
+
+
 ul li:nth-child(5) {
   height: 120px;
   background-color: #A2678A;
+}
+
+
+ul li:nth-child(5):hover {
+  background-color: #A2678A;
+  transform: scale(1.5);
+  color: whitesmoke;
 }
 
 ul li:nth-child(6) {
@@ -118,6 +154,11 @@ ul li:nth-child(6) {
   background-color: #4D3C77;
 }
 
+ul li:nth-child(6):hover {
+  background-color: #4D3C77;
+    transform: scale(1.5);
+  color: whitesmoke;
+}
 
 
 /*about*/
@@ -220,52 +261,6 @@ p {
 
 .WORK1 button:hover {
   background-color: #E19898;
-}
-
-/* Styles for WORK2 container */
-.WORK2 {
-  background-color: #B8E4FC;
-  padding: 1.5rem;
-  margin: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  height: 600px;
-}
-
-.WORK2 img {
-  max-width: 100%;
-  border-radius: 5px;
-}
-
-.WORK2 .content {
-  position: relative;
-  z-index: 1;
-}
-
-.WORK2 h3 {
-  margin-top: 0.5rem;
-}
-
-.WORK2 button {
-  margin-top: 0.5rem;
-  padding: 0.5rem;
-  background-color: #4D8AF0;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.WORK2 button:hover {
-  background-color: #3267C7;
-}
-
-
-
-/*work3*/
-.container {
-  display: flex;
 }
 
 /* Styles for WORK1 container */
@@ -398,8 +393,9 @@ p {
 }
 
 .WORK3 button:hover {
-  background-color: #4D8AF0;
+  background-color: #3267C7;
 }
+
 
 
 .WORK4 {
