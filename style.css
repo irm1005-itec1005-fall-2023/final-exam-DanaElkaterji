@@ -469,14 +469,14 @@ p{
   background-color: #FF6188;
 }
 
-
 footer {
-  background-color:#4D3C77; /* Set background color */
-  color: white; /* Set text color */
+  color: black; /* Set text color */
   padding: 20px; /* Add some padding for spacing */
   text-align: center; /* Center-align text */
   margin-top: 1rem;
+  border: 1px solid #4D3C77; /* Set border properties */
 }
+
 
 footer img {
   width: 50px; /* Adjust the width of the logo */
@@ -491,24 +491,14 @@ footer p {
 
 
 
-head {
-  background-color:#4D3C77; /* Set background color */
-  color: white; /* Set text color */
-  padding: 20px; /* Add some padding for spacing */
-  text-align: center; /* Center-align text */
-  margin-top: 1rem;
-}
 
-.first {
+
+.logo {
   width: 10rem; /* Adjust the width of the logo */
   height: 10rem; /* Adjust the height of the logo */
   margin-right: 10px; /* Add some margin to separate the logo from text */
 }
 
-head p {
-  margin: 0; /* Remove default margin for the paragraph */
-  left: 1;
-}
 
 
 .contact4{
@@ -520,9 +510,14 @@ head p {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  height: rem;
+  width: 10rem;
 }
 
 .contact4:hover {
   background-color: #FF6188;
 }
+
+
+
 
